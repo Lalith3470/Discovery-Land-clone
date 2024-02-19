@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-weight: 80; */
+    scroll-behavior:smooth;
+}
+.hero{
+    width: 98.9vw;
+    height: 120vh;
+    background-color:black;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 3%;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 175px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none !important;
+    color: #fff !important;
+    font-size: 17px;
+    /* opacity: 0.6; */
+    position: relative;
+    padding: 4px 0px;
+}
+nav ul li a::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background:white;
+    position: absolute;
+    display: inline-block;
+    top: 100%;
+    transition: width 0.5s ease;
+    left: 0%;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    left: 0;
+}
+.Box{
+    /* border: dotted red; */
+    display: flex;
+    position: absolute;
+    top: 20%;
+    height: 36%;
+    padding: 1%;
+    width: 100%;
+}
+.box1{
+    /* border: solid red; */
+    display: flex;
+    /* position: absolute; */
+    width:23%;
+    margin: 1%;
+}
+.innerbox{
+    /* border: dotted violet; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.Box1{
+    /* border: dotted red; */
+    display: flex;
+    position: absolute;
+    top: 60%;
+    height: 36%;
+    padding: 1%;
+    width: 100%;
+}
+.hero1{
+    height: 350vh;
+    width: 98.9vw;
+    background-color: black;
+    /* border: solid red; */
+    display: flex;
+    position: relative;
+
+}
+.Box2{
+    /* border: dotted red; */
+    height: 23%;
+    padding: 1%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.box2{
+    /* border: solid red; */
+    display: flex;
+    position: relative;
+    width:23%;
+    margin: 1%;
+}
+.innerbox1{
+    /* border: dotted violet; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+.A{
+    background-image: url("/assists/our\ world/1.jpg");
+    background-size: cover;
+}
+.B{
+    background-image: url("/assists/our\ world/2.jpeg");
+    background-size: cover;
+}
+.C{
+    background-image: url("/assists/our\ world/3.jpeg");
+    background-size: cover;
+}
+.D{
+    background-image: url("/assists/our\ world/4.jpeg");
+    background-size: cover;
+}
+.E{
+    background-image: url("/assists/our\ world/5.jpg");
+    background-size: cover;
+}
+.F{
+    background-image: url("/assists/our\ world/6.jpg");
+    background-size: cover;
+}
+.G{
+    background-image: url("/assists/our\ world/7.jpg");
+    background-size: cover;
+}
+.H{
+    background-image: url("/assists/our\ world/8.jpg");
+    background-size: cover;
+}
+.I{
+    background-image: url("/assists/our\ world/9.jpg");
+    background-size: cover;
+}
+.J{
+    background-image: url("/assists/our\ world/10.jpg");
+    background-size: cover;
+}
+.K{
+    background-image: url("/assists/our\ world/11.png");
+    background-size: cover;
+}
+.L{
+    background-image: url("/assists/our\ world/12.jpg");
+    background-size: cover;
+}
+.M{
+    background-image: url("/assists/our\ world/13.jpg");
+    background-size: cover;
+}
+.N{
+    background-image: url("/assists/our\ world/14.jpg");
+    background-size: cover;
+}
+.O{
+    background-image: url("/assists/our\ world/15.jpg");
+    background-size: cover;
+}
+.P{
+    background-image: url("/assists/our\ world/16.jpg");
+    background-size: cover;
+}
+.Q{
+    background-image: url("/assists/our\ world/17.png");
+    background-size: cover;
+}
+.R{
+    background-image: url("/assists/our\ world/18.jpg");
+    background-size: cover;
+}
+.S{
+    background-image: url("/assists/our\ world/19.png");
+    background-size: cover;
+}
+.T{
+    background-image: url("/assists/our\ world/20.jpg");
+    background-size: cover;
+}
+.U{
+    background-image: url("/assists/our\ world/21.jpg");
+    background-size: cover;
+}
+.V{
+    background-image: url("/assists/our\ world/22.jpg");
+    background-size: cover;
+}
+.W{
+    background-image: url("/assists/our\ world/23.jpeg");
+    background-size: cover;
+}
+.X{
+    background-image: url("/assists/our\ world/24.jpg");
+    background-size: cover;
+}
+.Y{
+    background-image: url("/assists/our\ world/25.jpg");
+    background-size: cover;
+}
+.Z{
+    background-image: url("/assists/our\ world/26.jpg");
+    background-size: cover;
+}
+.A1{
+    background-image: url("/assists/our\ world/27.jpg");
+    background-size: cover;
+}
+.B1{
+    background-image: url("/assists/our\ world/28.jpg");
+    background-size: cover;
+}
+.C1{
+    background-image: url("/assists/our\ world/29.jpg");
+    background-size: cover;
+}
+.D1{
+    background-image: url("/assists/our\ world/30.jpg");
+    background-size: cover;
+}
+.E1{
+    background-image: url("/assists/our\ world/31.jpg");
+    background-size: cover;
+}
+.F1{
+    background-image: url("/assists/our\ world/32.jpg");
+    background-size: cover;
+}
+.G1{
+    background-image: url("/assists/our\ world/33.jpg");
+    background-size: cover;
+}
+.box-heading-text{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.8;
+}
+.box-text{
+    font-size: 16px;
+    color: white;
+    opacity: 0.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-box1{
+    /* border: solid wheat; */
+    height: 20%;
+    width: 22%;
+    top: 73%;
+    display: flex;
+    position: absolute;
+}
+.text-box2{
+    /* border: solid rebeccapurple; */
+    height: 15%;
+    width: 20%;
+    top: 81%;
+    display: flex;
+    position: absolute;
+}
+.text-box3{
+    /* border: solid wheat; */
+    height: 20%;
+    width: 100%;
+    top: 73%;
+    display: flex;
+    position: absolute;
+    padding-top: 4%;
+}
+.text-box4{
+    /* border: solid rebeccapurple; */
+    height: 15%;
+    width: 100%;
+    top: 88%;
+    display: flex;
+    position: absolute;
+}
+
+/* last box------------------------>*/
+
+.bottom-box{
+    position: relative;
+    height: 80vh;
+    width: 98.9vw;
+    top: 11%;
+    display: flex;
+    direction: column;
+    position: relative;
+    background-color: #161f1e;
+    /* border: solid  black; */
+}
+.logobox{
+    height: 60px;
+    display: flex;
+    position: absolute;
+    /* border: solid red; */
+    top: 20%;
+    left: 10%;
+    background-image: url('/assists/logo1.png');
+    background-size: cover;
+    width: 60px;
+
+}
+.bottomboxmatter{
+    /* border: solid red; */
+    height:50%;
+    top: 20%;
+    left: 50%;
+    width: 50%;
+    position: absolute;
+}
+.bo{
+    /* border: solid white; */
+    height: 100%;
+    display: flex;
+    position: absolute;
+    padding-left: 1%;
+    padding-top: 2%;
+    width: 50%;
+}
+.bo2{
+    /* border: solid white; */
+    height: 100%;
+    display: flex;
+    padding-left: 1%;
+    padding-top: 2%;
+    position: absolute;
+    width: 25%;
+    left: 50%;
+}
+
+.bo3{
+    /* border: solid white; */
+    height: 100%;
+    position: absolute;
+    width: 25%;
+    left: 75%;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+.textbottom{
+    color: white;
+    font-size: 13px;
+    word-spacing: 1%;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.mainco{
+    color: white;
+    font-size: 16px;
+    font-family: roboto;
+}
+.email{
+    color: white;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.site{
+    /* border: solid red; */
+    height: 20%;
+    width: 20%;
+    display: flex;
+    position: absolute;
+    left: 75%;
+    justify-content: end;
+    padding-top: 5%;
+    padding-right: 2%;
+    top:70%;
+}
+.site1{
+    /* border: solid red; */
+    height: 20%;
+    width: 40%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    padding-top: 5%;
+    padding-right: 4%;
+    top:70%;
+}
+.mainco1{
+    color: white;
+    font-size: 12px;
+    font-family: roboto;
+}
+
+.hov{
+    transition: all .5s;
+}
+.hov:hover{
+    transform: scale(1.2);
+}
